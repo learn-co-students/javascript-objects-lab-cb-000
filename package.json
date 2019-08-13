@@ -4,17 +4,13 @@
   "description": "Practice with objects in JavaScript on Learn",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    "test": "mocha -b -R mocha-multi --reporter-options nyan=-,json=.results.json"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/learn-co-curriculum/javascript-objects-lab.git"
   },
-  "keywords": [
-    "javascript",
-    "flatiron",
-    "learn"
-  ],
+  "keywords": ["javascript", "flatiron", "learn"],
   "author": "pletcher",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
